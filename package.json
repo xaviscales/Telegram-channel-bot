@@ -1,0 +1,18 @@
+{
+  "name": "telegram-channel-mcp-server",
+  "version": "1.0.0",
+  "description": "Minimal remote MCP server exposing a Telegram channel to Claude via a bot.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "express": "^5.2.1",
+    "zod": "^4.5.4"
+  }
+}
